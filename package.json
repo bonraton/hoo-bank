@@ -1,0 +1,18 @@
+{
+  "name": "hoo-bank",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite & npm run tailwind",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "tailwindcss -i ./styles/tailwind.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
