@@ -2,115 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link type="text/css" rel="stylesheet" href="./index.css" />
-    <link type="text/css" rel="stylesheet" href="./dist/output.css" />
+    <link rel="icon" type="image/svg+xml" href="/hoobank.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hoo Bank</title>
+    <meta name="theme-color" content="#000000" />
+    <title>HooBank</title>
   </head>
-  <body class="bg-primary box-width w-full overflow-hidden">
-    <header class="flex w-full padding-x" >
-      <nav class="w-full py-6 flex justify-between items-center navbar">
-        <img src="./assets/logo.svg" alt="logo" class="w-[124px] h-[32px]" />
-        <ul class="list-none sm:flex hidden justify-end items-center">
-          <li
-            class="font-poppins font-normal cursor-pointer text-white text-[16px] mr-10"
-          >
-            <a> Home </a>
-          </li>
-          <li
-            class="font-poppins font-normal cursor-pointer text-white text-[16px] mr-10"
-          >
-            <a> Features </a>
-          </li>
-          <li
-            class="font-poppins font-normal cursor-pointer text-white text-[16px] mr-10"
-          >
-            <a> Product </a>
-          </li>
-          <li
-            class="font-poppins font-normal cursor-pointer text-white text-[16px]"
-          >
-            <a> Clients </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="flex center w-full">
-      <section id="home" class="flex md:flex-row flex-col padding-y">
-        <div class="flex-1 flex-start flex-col xl:px-16 px-6">
-          <div
-            class="flex flex-row items-center px-4 py-[6px] bg-discount-gradient rounded-[10px] mb-2"
-          >
-            <img
-              src="./assets/Discount.svg"
-              alt="disccount"
-              class="w-[32px] h-[32px]"
-            />
-            <p class="paragraph ml-2">
-              <span class="text-white">20%</span>
-              Discount for
-              <span class="text-white">1 month</span>
-              Account
-            </p>
-          </div>
-          <div class="flex flex-row justify-between w-full">
-            <h1
-              class="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading[100px] leading[75px]"
-            >
-              The Next <br class="sm:block hidden" />
-              <span class="text-gradient">Generation</span>
-            </h1>
-            <div class="ss:flex hidden md:mr-4 m-0">
-              <div class="flex-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
-                <div class="flex-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
-                  <div class="flex-start flex-row">
-                    <p class="font-poppins font-medium text-[18px] leading-[23px] mr-[2px]">
-                      <span class="text-gradient">Get</span>
-                    </p>
-                    <img src="./assets/arrow-up.svg" alt="arrow" class="w-[23px] h-[23px] object-contain">
-                  </div>
-                  <p class="font-poppins font-medium text-[18px] leading-[23px]">
-                    <span class="text-gradient">Started</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h1
-          class="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading[100px] leading[75px] w-full"
-        >
-        Payment method
-        </h1>
-        <p class="paragraph max-w-[470px] mt-5">
-          Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-We examine annual percentage rates, annual fees.
-        </p>
-        </div>
-        <div>
-          <img src="./assets/robot.png" alt="billing" class="w-[100%] h-[100%] relative z-[5]">
-          <div class="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
-          <div class="absolute z-[1] w-[80%] h-[80%] rounded-full top-0 bottom-40 white__gradient"></div>
-          <div class="absolute z-[0] w-[50%] h-[50%] top-0 right-20 bottom-20 blue__gradient"></div>
-        </div>
-      </section>
-    </main>
-
-    <!--  HOME  -->
-
-    <!-- Business -->
-    <!-- Clients -->
-    <!-- Features -->
-    <!-- CTA -->
-    <!-- Clients -->
-    <!-- Billing -->
-    <!-- Footer -->
-    <!-- <GetStarted -->
-    <!-- <Hero -->
-    <!-- <Navbar -->
-    <!-- <Stats -->
-    <!-- <testimonials -->
-    <div class="flex-start padding-x"></div>
-
-    <script type="module" src="/main.js"></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
